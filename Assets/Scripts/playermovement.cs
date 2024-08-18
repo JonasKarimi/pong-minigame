@@ -20,7 +20,6 @@ public class playermovement : MonoBehaviour
         pRacket.drag = drag;
     }
 
-    // Update is called once per frame
     void Update()
     {
         move();
