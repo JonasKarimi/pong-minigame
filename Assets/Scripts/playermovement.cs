@@ -13,11 +13,13 @@ public class playermovement : MonoBehaviour
     public KeyCode Up;
     public KeyCode Down;
 
+
     void Start()
     {
         pRacket = this.GetComponent <Rigidbody2D>();
         camera = Camera.main;
         pRacket.drag = drag;
+        
     }
 
     void Update()
@@ -34,6 +36,7 @@ public class playermovement : MonoBehaviour
             if(basespeed.y<max_speed)
                 basespeed+= new Vector2(0f,speed*speed_multiplier);
             pRacket.velocity = basespeed; 
+            FindObjectOfType<Ball>().Inheritspeed(basespeed.y);
         }
 
         if(Input.GetKey(Down))
@@ -41,11 +44,12 @@ public class playermovement : MonoBehaviour
             if(basespeed.y>-1*max_speed)
                 basespeed+= new Vector2(0f,-1*speed*speed_multiplier);
             pRacket.velocity = basespeed;
+            FindObjectOfType<Ball>().Inheritspeed(basespeed.y);
         }
        
 
     }
-
+    
     void clamp()
     {
         float clampHight = camera.ScreenToWorldPoint(new Vector3(0f, Screen.height, 0f)).y - (transform.localScale.y/2);
