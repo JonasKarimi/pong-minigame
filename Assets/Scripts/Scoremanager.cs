@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class ScoreManager : MonoBehaviour
 {
-    public Text scoreText;
+     
+     private TextMeshPro TMP;
+   
     private int score=0;
     public static ScoreManager instance;
 
@@ -16,11 +19,11 @@ public class ScoreManager : MonoBehaviour
     }
     void Start()
     {
-        scoreText.text = score.ToString();
+      TMP= GetComponent<TextMeshPro>();
     }
-    public void Addscore()
+    public void Addscore(TMP_Text tmp)
     {
         score+=1;
-        scoreText.text = score.ToString();
+        TMP.SetText(score.ToString());
     }
 }
