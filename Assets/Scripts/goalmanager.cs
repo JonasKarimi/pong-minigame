@@ -43,5 +43,6 @@ public class scorehandler : MonoBehaviour
     public void OnTriggerExit2D(Collider2D col)
     {  
         Destroy(Ball);
+        
     }
 }
