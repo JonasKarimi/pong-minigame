@@ -16,10 +16,11 @@ public class Ball : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         bounce_sfx= GetComponent<AudioSource>();
-        GoBall();
+        StartCoroutine(GoBall());
     }
-    void GoBall() //link relspeed to playermovement script 
+    IEnumerator GoBall()
     {
+        yield return new WaitForSeconds(1);
         float rand = Random.Range(bannedStartAngleDgree, 180 - bannedStartAngleDgree) - 90;
         if (Random.Range(0, 2) == 1) { rand += 180; }
 
@@ -32,13 +33,9 @@ public class Ball : MonoBehaviour
         relspeed = yracket;
     }
    public void  OnCollisionExit2D(Collision2D collision)
-    {
+   {
         bounce_sfx.Play();
         
         rb2d.AddForce(new Vector2(0f,relspeed));
-    }
-
-    
-   
-  
+   }
 }
