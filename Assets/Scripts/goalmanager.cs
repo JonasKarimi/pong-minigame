@@ -11,17 +11,9 @@ public class scorehandler : MonoBehaviour
     private GameObject Ball;
     public ScoreManager ScoreManager;
     
-    // Start is called before the first frame update
     void Start()
     {
         Ball = GameObject.FindWithTag("ball");
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
         
     }
     public void OnTriggerEnter2D(Collider2D col)
@@ -37,8 +29,6 @@ public class scorehandler : MonoBehaviour
               ScoreManager.Addscore1();  
             }
         }
-        
-
     }
     public void OnTriggerExit2D(Collider2D col)
     {  
