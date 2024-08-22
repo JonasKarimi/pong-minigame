@@ -6,15 +6,21 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    public ParticleSystem prt;
     [SerializeField] float startingBallSpeed = 8;
     [SerializeField] float bannedStartAngleDgree;
+    [SerializeField] int relspeed_multiplier;
     
-     public float relspeed;
+    
+     public  AudioSource bounce_sfx;
+     private float relspeed=0;
     private Vector2 dir;
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d =GetComponent<Rigidbody2D>();
+        //bounce_sfx= GetComponent<AudioSource>();
         StartCoroutine(GoBall());
+        
     }
     IEnumerator GoBall()
     {
@@ -30,9 +36,19 @@ public class Ball : MonoBehaviour
     {
         relspeed = yracket;
     }
-   public void  OnCollisionExit2D(Collision2D collision)
-   {
-        AudioManager.PlaySound(AudioManager.Sounds.BallBounce,this.transform.position,0.6f);
-        rb2d.AddForce(new Vector2(0f,relspeed));
+   public void  OnCollisionEnter2D(Collision2D collision)
+   {    
+        //bounce_sfx.Play();
+       
+        rb2d.AddForce(new Vector2(0f,relspeed*relspeed_multiplier));
+        
+        var em = prt.emission;
+
+        em.enabled=true;
+        prt.Play();
+        
+    
+
+       
    }
 }
