@@ -11,6 +11,7 @@ public class MainMenueView : View
     public override void Initialize()
     {
         PlayButton.onClick.AddListener(() => ViewManager.Show<PlayView>());
+        PlayButton.onClick.AddListener(GameManager.GameEvent.UnPause);
         SettingsButton.onClick.AddListener(() => ViewManager.Show<SettingsView>());
         QuitButton.onClick.AddListener(() => Application.Quit());
     }
