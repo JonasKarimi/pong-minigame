@@ -6,15 +6,18 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    public ParticleSystem prt;
     [SerializeField] float startingBallSpeed = 8;
     [SerializeField] float bannedStartAngleDgree;
+    [SerializeField] int relspeed_multiplier;
     
     public float reletiveSpeed;
     private Vector2 dir;
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d =GetComponent<Rigidbody2D>();
         StartCoroutine(GoBall());
+        
     }
     IEnumerator GoBall()
     {
@@ -37,5 +40,8 @@ public class Ball : MonoBehaviour
             rb2d.AddForce(new Vector2(0f,10f*reletiveSpeed));
         }
         AudioManager.PlaySound(AudioManager.Sounds.BallBounce,this.transform.position,0.6f);
+        var em = prt.emission;
+        em.enabled=true;
+        prt.Play();
    }
 }
