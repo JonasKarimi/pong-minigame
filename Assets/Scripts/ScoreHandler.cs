@@ -4,18 +4,12 @@ using UnityEngine;
 using TMPro;
 
 
-public class scorehandler : MonoBehaviour
+public class ScoreHandler : MonoBehaviour
 {
     
     public bool isp1goal;
-    private GameObject Ball;
     public ScoreManager ScoreManager;
     
-    void Start()
-    {
-        Ball = GameObject.FindWithTag("ball");
-        
-    }
     public void OnTriggerEnter2D(Collider2D col)
     {
         if(col.CompareTag("ball"))
@@ -28,11 +22,7 @@ public class scorehandler : MonoBehaviour
             {
               ScoreManager.Addscore1();  
             }
+            Destroy(col.gameObject);
         }
-    }
-    public void OnTriggerExit2D(Collider2D col)
-    {  
-        Destroy(Ball);
-        
     }
 }

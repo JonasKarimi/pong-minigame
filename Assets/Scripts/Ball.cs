@@ -11,14 +11,11 @@ public class Ball : MonoBehaviour
     [SerializeField] float bannedStartAngleDgree;
     [SerializeField] int relspeed_multiplier;
     
-    
-     public  AudioSource bounce_sfx;
-     private float relspeed=0;
+    public float reletiveSpeed;
     private Vector2 dir;
     void Start()
     {
         rb2d =GetComponent<Rigidbody2D>();
-        //bounce_sfx= GetComponent<AudioSource>();
         StartCoroutine(GoBall());
         
     }
@@ -26,29 +23,25 @@ public class Ball : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         float rand = Random.Range(bannedStartAngleDgree, 180 - bannedStartAngleDgree) - 90;
-        if (Random.Range(0, 2) == 1) { rand += 180; }
+        if (Random.Range(0, 2) == 1) { rand += 180;}
 
-        dir = new Vector2(Mathf.Cos(Mathf.Deg2Rad * rand*2), Mathf.Sin(Mathf.Deg2Rad * rand*2));
+        dir = new Vector2(Mathf.Cos(Mathf.Deg2Rad * rand), Mathf.Sin(Mathf.Deg2Rad * rand));
         rb2d.velocity = ( dir * startingBallSpeed * 10f);
      
     }
     public void Inheritspeed(float yracket)
     {
-        relspeed = yracket;
+        reletiveSpeed = yracket;
     }
-   public void  OnCollisionEnter2D(Collision2D collision)
-   {    
-        //bounce_sfx.Play();
-       
-        rb2d.AddForce(new Vector2(0f,relspeed*relspeed_multiplier));
-        
+   public void  OnCollisionExit2D(Collision2D collision)
+   {
+        if (collision.collider.CompareTag("Player"))
+        {
+            rb2d.AddForce(new Vector2(0f,10f*reletiveSpeed));
+        }
+        AudioManager.PlaySound(AudioManager.Sounds.BallBounce,this.transform.position,0.6f);
         var em = prt.emission;
-
         em.enabled=true;
         prt.Play();
-        
-    
-
-       
    }
 }

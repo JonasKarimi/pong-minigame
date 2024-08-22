@@ -36,7 +36,6 @@ public class playermovement : MonoBehaviour
             if(basespeed.y<max_speed)
                 basespeed+= new Vector2(0f,speed*speed_multiplier);
             pRacket.velocity = basespeed; 
-            FindObjectOfType<Ball>().Inheritspeed(basespeed.y);
         }
 
         if(Input.GetKey(Down))
@@ -44,7 +43,6 @@ public class playermovement : MonoBehaviour
             if(basespeed.y>-1*max_speed)
                 basespeed+= new Vector2(0f,-1*speed*speed_multiplier);
             pRacket.velocity = basespeed;
-            FindObjectOfType<Ball>().Inheritspeed(basespeed.y);
         }
        
 
