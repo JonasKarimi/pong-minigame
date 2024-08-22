@@ -9,13 +9,11 @@ public class Ball : MonoBehaviour
     [SerializeField] float startingBallSpeed = 8;
     [SerializeField] float bannedStartAngleDgree;
     
-     public  AudioSource bounce_sfx;
      public float relspeed;
     private Vector2 dir;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        bounce_sfx= GetComponent<AudioSource>();
         StartCoroutine(GoBall());
     }
     IEnumerator GoBall()
@@ -34,8 +32,7 @@ public class Ball : MonoBehaviour
     }
    public void  OnCollisionExit2D(Collision2D collision)
    {
-        bounce_sfx.Play();
-        
+        AudioManager.PlaySound(AudioManager.Sounds.BallBounce,this.transform.position,0.6f);
         rb2d.AddForce(new Vector2(0f,relspeed));
    }
 }

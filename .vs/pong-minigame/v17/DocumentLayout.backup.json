@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Projects\\Unity\\pong-minigame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\views\\settingsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\views\\settingsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SettingsView.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\SettingsView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Views\\SettingsView.cs",
+              "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\SettingsView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Views\\SettingsView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:17:55.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "goalmanager.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\goalmanager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\goalmanager.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\goalmanager.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:09:36.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T14:09:36.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scoremanager.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Scoremanager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scoremanager.cs",
@@ -47,18 +63,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Scoremanager.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:08:42.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T14:08:42.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Ball.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAApwBEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAApwCQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T14:03:31.416Z",
               "EditorCaption": ""
