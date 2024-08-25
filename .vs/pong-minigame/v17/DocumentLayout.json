@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Projects\\Unity\\pong-minigame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\playermovement.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\playermovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\playermovement.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T20:37:52.698Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Views\\PauseView.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T18:54:03.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T18:54:03.417Z"
             },
             {
               "$type": "Document",
@@ -161,7 +160,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Ball.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAASwB4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T14:03:31.416Z",
               "EditorCaption": ""

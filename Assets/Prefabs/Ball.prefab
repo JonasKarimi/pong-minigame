@@ -101,9 +101,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prt: {fileID: 3064319677663381842}
-  startingBallSpeed: 0.77
-  bannedStartAngleDgree: 69.2
+  startingBallSpeed: 3.4
+  bannedStartAngleDgree: 30
   relspeed_multiplier: 0
+  timeSinceLastPlayerHitThreshold: 1.67
   reletiveSpeed: 1.85
 --- !u!50 &7841448675707806780
 Rigidbody2D:
@@ -121,7 +122,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b4b842d8cdf591a438e1296386ef1660, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

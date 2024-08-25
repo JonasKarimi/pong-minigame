@@ -90,7 +90,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4322183316441910896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: UnPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!82 &8584815897789078503
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1182,14 +1194,13 @@ GameObject:
   - component: {fileID: 8484797419677664556}
   - component: {fileID: 7937948863687842784}
   - component: {fileID: 5481866909605567715}
-  - component: {fileID: 6457039362030622878}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9132703676217790180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1222,7 +1233,7 @@ Canvas:
   m_GameObject: {fileID: 8482367750343353934}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1276,18 +1287,3 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6457039362030622878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8482367750343353934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e03a119154104b4bb3d92ef26ecbc0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BackButton: {fileID: 350359835816291984}
-  SFXSlider: {fileID: 2995890198623333308}
-  MusicSlider: {fileID: 3785431158580419532}
