@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     {
         BallBounce,
         Goal,
+        Taunt,
         MainMusic
     }
     public static AudioMixer MasterMixer;
@@ -36,6 +37,7 @@ public class AudioManager : MonoBehaviour
         AudioSource audioSource = SoundObject.AddComponent<AudioSource>();
         audioSource.volume = _Volume;
         audioSource.PlayOneShot(GetAudioClip(_sound));
+        audioSource.Play();
         Object.Destroy(SoundObject, audioSource.clip.length);
     }
 

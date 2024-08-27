@@ -16,6 +16,7 @@ public class GameAssets : MonoBehaviour
     }
 
     public GameObject Ball;
+    
 
     public SoundAudioClip[] soundAudioClipArray;
     [System.Serializable]
@@ -24,4 +25,5 @@ public class GameAssets : MonoBehaviour
         public AudioManager.Sounds Sounds;
         public AudioClip AudioClip;
     }
+    
 }
