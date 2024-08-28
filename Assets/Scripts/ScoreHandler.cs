@@ -25,7 +25,7 @@ public class ScoreHandler : MonoBehaviour
                 em.enabled=true;
                 goaleffect.Play();
                 
-            AudioManager.PlaySound(AudioManager.Sounds.Goal,this.transform.position);
+                AudioManager.PlaySound(AudioManager.Sounds.Goal,this.transform.position);
                 taunt();
             }
             else
@@ -47,7 +47,7 @@ public class ScoreHandler : MonoBehaviour
         int rand = Random.Range(0,100);
         if(rand<=NoBitchCallingPercentage)
         {
-            AudioManager.PlaySound(AudioManager.Sounds.Taunt,transform.position);
+            AudioManager.PlaySound(AudioManager.Sounds.Taunt,this.transform.position);
         }
 
     }

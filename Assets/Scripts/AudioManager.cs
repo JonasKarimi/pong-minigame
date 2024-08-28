@@ -48,8 +48,8 @@ public class AudioManager : MonoBehaviour
             {
                 return soundAudioClip.AudioClip;
             }
-            Debug.LogError("no " + sound + "Sound Dipshit");
         }
+        Debug.LogError("no " + sound + "Sound Dipshit");
         return null;
     }
 }

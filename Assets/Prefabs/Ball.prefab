@@ -106,6 +106,7 @@ MonoBehaviour:
   relspeed_multiplier: 0
   timeSinceLastPlayerHitThreshold: 1.67
   reletiveSpeed: 1.85
+  PaddleChangeDirImpact: 0.17
 --- !u!50 &7841448675707806780
 Rigidbody2D:
   serializedVersion: 4

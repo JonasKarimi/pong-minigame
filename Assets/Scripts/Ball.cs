@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -37,28 +39,33 @@ public class Ball : MonoBehaviour
     IEnumerator GoBall()
     {
         yield return new WaitForSeconds(1);
-        float rand = Random.Range(bannedStartAngleDgree, 180 - bannedStartAngleDgree) - 90;
-        if (Random.Range(0, 2) == 1) { rand += 180;}
+        float rand = UnityEngine.Random.Range(bannedStartAngleDgree, 180 - bannedStartAngleDgree) - 90;
+        if (UnityEngine.Random.Range(0, 2) == 1) { rand += 180;}
 
         dir = new Vector2(Mathf.Cos(Mathf.Deg2Rad * rand), Mathf.Sin(Mathf.Deg2Rad * rand));
         rb2d.velocity = ( dir * startingBallSpeed);
      
     }
     private float timeSinceLastPlayerHit = 0;
-   public void  OnCollisionExit2D(Collision2D collision)
+   public void  OnCollisionEnter2D(Collision2D collision)
    {
         if (collision.collider.CompareTag("Player"))
         {
             timeSinceLastPlayerHit = 0f;
-        //    rb2d.AddForce(new Vector2(0f, 10f * reletiveSpeed));
-        //    Vector3 tempSpeed = rb2d.velocity += collision.gameObject.GetComponent<Rigidbody2D>().velocity;
-        //    tempSpeed.Normalize();
-        //    rb2d.velocity = tempSpeed * rb2d.velocity.magnitude;
+            ChangeTrajectory(collision);
         }
-
         AudioManager.PlaySound(AudioManager.Sounds.BallBounce,this.transform.position,0.6f);
         var em = prt.emission;
         em.enabled=true;
         prt.Play();
+   }
+
+    [SerializeField] float PaddleChangeDirImpact =1;
+   void ChangeTrajectory(Collision2D _collision2D)
+   {
+        float keepSpeed = rb2d.velocity.magnitude;
+        Vector3 newVel = rb2d.velocity + (_collision2D.collider.attachedRigidbody.velocity * PaddleChangeDirImpact);
+        newVel = newVel.normalized * keepSpeed;
+        rb2d.velocity = newVel;
    }
 }
