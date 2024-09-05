@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GameAssets : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GameAssets : MonoBehaviour
     }
 
     public GameObject Ball;
+    public AudioMixer MasterMixer;
     
 
     public SoundAudioClip[] soundAudioClipArray;
@@ -25,5 +27,16 @@ public class GameAssets : MonoBehaviour
         public AudioManager.Sounds Sounds;
         public AudioClip AudioClip;
     }
-    
+
+    public SoundAudioClip[] MusicTrackArray;
+    [System.Serializable]
+    public class MusicTrack
+    {
+        public AudioManager.Tracks Tracks;
+        public AudioClip AudioClip;
+        public float bpm= 130f;
+        public float TimeToFirstBeat=0;
+        public float TailEndTime=0;
+    }
+
 }

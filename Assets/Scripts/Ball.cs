@@ -11,12 +11,9 @@ public class Ball : MonoBehaviour
     public ParticleSystem prt;
     [SerializeField] float startingBallSpeed = 8;
     [SerializeField] float bannedStartAngleDgree;
-    [SerializeField] int relspeed_multiplier;
     [SerializeField] float timeSinceLastPlayerHitThreshold = 5f;
+    [SerializeField] float SpeedUpFactor = 1.0f;
 
-
-    public float reletiveSpeed;
-    private Vector2 dir;
     void Start()
     {
         rb2d =GetComponent<Rigidbody2D>();
@@ -33,9 +30,10 @@ public class Ball : MonoBehaviour
         if (timeSinceLastPlayerHit >= timeSinceLastPlayerHitThreshold)
         {
             d *= Mathf.Pow(((timeSinceLastPlayerHit - timeSinceLastPlayerHitThreshold) + 0.2f)*0.5f,0.8f);
-            rb2d.AddForce(d * 0.6f, ForceMode2D.Force);
+            rb2d.AddForce(d * SpeedUpFactor, ForceMode2D.Force);
         }
     }
+    private Vector2 dir;
     IEnumerator GoBall()
     {
         yield return new WaitForSeconds(1);
@@ -60,11 +58,11 @@ public class Ball : MonoBehaviour
         prt.Play();
    }
 
-    [SerializeField] float PaddleChangeDirImpact =1;
+    [SerializeField] float PaddleChangeDirFactor =1;
    void ChangeTrajectory(Collision2D _collision2D)
    {
         float keepSpeed = rb2d.velocity.magnitude;
-        Vector3 newVel = rb2d.velocity + (_collision2D.collider.attachedRigidbody.velocity * PaddleChangeDirImpact);
+        Vector3 newVel = rb2d.velocity + (_collision2D.collider.attachedRigidbody.velocity * PaddleChangeDirFactor);
         newVel = newVel.normalized * keepSpeed;
         rb2d.velocity = newVel;
    }

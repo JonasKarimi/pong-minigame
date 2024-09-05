@@ -65,7 +65,8 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) { ViewManager.Show<PauseView>(); GameEvent.Pause(); }
+        if (Input.GetKeyDown(KeyCode.Escape) && GameEvent.IsPaused == false) { ViewManager.Show<PauseView>(); GameEvent.Pause(); }
+        else if (Input.GetKeyDown(KeyCode.Escape) && GameEvent.IsPaused == true) { ViewManager.ShowLast(); GameEvent.UnPause(); }
         if (GameObject.FindGameObjectWithTag("ball") == null)
         {
             GameManager.Spawner.SpawnBall();

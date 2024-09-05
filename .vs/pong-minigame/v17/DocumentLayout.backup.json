@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Projects\\Unity\\pong-minigame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0162422F-9D55-1B97-99E4-3EBBFF9B292B}|Assembly-CSharp.Player.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\soundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0162422F-9D55-1B97-99E4-3EBBFF9B292B}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\soundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|c:\\projects\\unity\\pong-minigame\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\tail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\views\\settingsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +39,8 @@
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\views\\viewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\scorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4F56AE1-E536-7B6D-84F3-C286D9BFDD63}|Assembly-CSharp.csproj|C:\\Projects\\Unity\\pong-minigame\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,35 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScoreHandler.cs",
-              "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\ScoreHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreHandler.cs",
-              "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\ScoreHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoreHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SoundSettings.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\SoundSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundSettings.cs",
+              "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\SoundSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:16:57.607Z"
+              "WhenOpened": "2024-09-05T21:21:02.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwEQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T17:36:01.748Z"
+              "WhenOpened": "2024-08-22T17:36:01.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "GameAssets.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\GameAssets.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameAssets.cs",
@@ -94,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainMenuView.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\MainMenuView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Views\\MainMenuView.cs",
@@ -106,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ViewManager.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\ViewManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Views\\ViewManager.cs",
@@ -118,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SettingsView.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\SettingsView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Views\\SettingsView.cs",
@@ -130,20 +140,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Ball.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:03:31.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T14:03:31.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Scoremanager.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Scoremanager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scoremanager.cs",
@@ -161,13 +170,38 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
               "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwCYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:20:51.293Z"
+              "WhenOpened": "2024-08-22T14:20:51.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ScoreHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\ScoreHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreHandler.cs",
+              "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\ScoreHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:16:57.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tail.cs",
+              "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Tail.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tail.cs",
+              "ToolTip": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Tail.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T18:55:19.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PauseView.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\Views\\PauseView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Views\\PauseView.cs",
@@ -179,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "playermovement.cs",
               "DocumentMoniker": "C:\\Projects\\Unity\\pong-minigame\\Assets\\Scripts\\playermovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\playermovement.cs",
